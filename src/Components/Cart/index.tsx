@@ -1,6 +1,7 @@
 /* eslint-disable array-callback-return */
 import React from 'react';
 
+import { Close } from '@material-ui/icons';
 import { Container } from './styles';
 import { ProductsItems } from '../../pages/Store/index';
 import CartItem from '../CartItem';
@@ -19,7 +20,10 @@ const Cart: React.FC<IProps> = ({ cartItems, addToCart, removeFromCart }) => {
     items.reduce((prod: number, item) => prod + item.amount * item.price, 0);
   return (
     <Container>
-      <h1>Shopping Cart</h1>
+      <h1>
+        Shopping Cart <Close style={{ color: '#c91f37' }} fontSize="large" />
+      </h1>
+
       {cartItems.length === 0 ? (
         <h2 id="cartEmptyInfo">Your cart is empty!</h2>
       ) : null}

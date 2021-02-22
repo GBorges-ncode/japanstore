@@ -25,8 +25,8 @@ const CartItem: React.FC<IProps> = ({ items, addToCart, removeFromCart }) => {
         <h4>{items.name}</h4>
         <h6>{items.description}</h6>
         <div className="information">
-          <p>Price: {formatPrice(items.price)}</p>
-          <p>Total: {formatPrice(items.amount * items.price)}</p>
+          <p id="cartPrice">Price: {formatPrice(items.price)}</p>
+          <p id="cartTotal">Total: {formatPrice(items.amount * items.price)}</p>
         </div>
         <div className="buttons">
           <Button
@@ -37,7 +37,7 @@ const CartItem: React.FC<IProps> = ({ items, addToCart, removeFromCart }) => {
           >
             -
           </Button>
-          <p>{items.amount}</p>
+          <p id="itemAmount">{items.amount}</p>
           <Button
             size="small"
             disableElevation

@@ -38,5 +38,51 @@ export const Container = styled.div`
     display: flex;
     color: #999;
     justify-content: center;
+    text-align: center;
+  }
+
+  @media (max-width: 375px) {
+    .information,
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+
+      #cartPrice,
+      #cartTotal {
+        font-size: 18px;
+      }
+
+      #itemAmount {
+        width: 30px;
+        margin: 0px 5px;
+        text-align: center;
+      }
+    }
+
+    /* Item Image */
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      /* object-fit: cover; */
+      margin-left: 10px;
+      /* border: 1px solid #171412; */
+    }
+
+    /* Item Name */
+    h4 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    /* Item Description */
+    h6 {
+      display: flex;
+      color: #999;
+      justify-content: center;
+      text-align: center;
+      font-size: 14px;
+    }
   }
 `;
