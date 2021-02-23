@@ -11,7 +11,7 @@
   <img align="left" alt="Docker" src="https://img.shields.io/badge/docker%20-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white"/>
   </div>
   <hr>
-  <h4 align="center">This website example contains: store, cart system, inventory control, recipes sections and pages, about us, contact us</h4>
+  <h4 align="center">This website example contains: store, cart system, inventory control, recipes sections and pages, about us, contact us.</h4>
   
   <div align="center">
   <a href="https://imgur.com/yhripSF"><img src="https://i.imgur.com/yhripSF.png"/></a>
