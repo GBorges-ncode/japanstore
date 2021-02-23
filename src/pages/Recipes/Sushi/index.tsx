@@ -7,6 +7,13 @@ import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
 import ListSubheader from '@material-ui/core/ListSubheader';
 
+import nigiri from '../../../assets/Recipes/Sushi/nigiri.png';
+import uramaki from '../../../assets/Recipes/Sushi/uramaki.png';
+import hosomaki from '../../../assets/Recipes/Sushi/hosomaki.png';
+import futomaki from '../../../assets/Recipes/Sushi/futomaki.png';
+import gunkanmaki from '../../../assets/Recipes/Sushi/gunkanmaki.png';
+import temaki from '../../../assets/Recipes/Sushi/temaki.png';
+
 import { Container } from './styles';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -32,38 +39,32 @@ const Sushi: React.FC = () => {
   const items = [
     {
       title: 'Nigiri',
-      img:
-        'https://sushishop.com/wp-content/uploads/2019/07/NIGIRI_SASHIMI_MAGURO_.png',
+      img: `${nigiri}`,
       href: 'https://japanfoodstyle.com/nigiri-sushi-recipe/',
     },
     {
       title: 'Uramaki',
-      img:
-        'https://gohansc.com.br/wp-content/uploads/2018/01/pecas_0001s_0007_uramaki_skin.png',
+      img: `${uramaki}`,
       href: 'https://www.rotinrice.com/uramaki-inside-out-roll/',
     },
     {
       title: 'Hosomaki',
-      img:
-        'https://static.takeaway.com/images/restaurants/bg/O73535N1/products/hosomakisiomga.png',
+      img: `${hosomaki}`,
       href: 'https://www.rotinrice.com/hosomaki-thin-sushi-rolls/',
     },
     {
       title: 'Futomaki',
-      img:
-        'https://lh3.googleusercontent.com/proxy/LwIUCLhbUd-JP-HeLK2gJAPs4lbnc_bDBlMXIy5gdzTQTiVjNus5B1jZF_f6HCJyT4LGOX0tCGcE8W34G87HfB9Klq1IPSekqdlSYgarVt8yxNeDzQ',
+      img: `${futomaki}`,
       href: 'https://www.rotinrice.com/futomaki-thick-sushi-rolls/',
     },
     {
       title: 'Gunkan Maki',
-      img:
-        'https://static.thuisbezorgd.nl/images/restaurants/nl/N100N37/products/14-tonijn-gunkan-per-stuk.png',
+      img: `${gunkanmaki}`,
       href: 'https://cookingwithdog.com/recipe/gunkanmaki/',
     },
     {
       title: 'Temaki',
-      img:
-        'https://lh3.googleusercontent.com/proxy/IzTcliVJXS4tdehByUzPPQIINmjQ1Xc-HSDhAh5K89pMhj30wS0MFhN3gv-UIsguNzfpkVjtQGeqX7ocME3N5bhBDJ_4I7gfq7TjF1B19hdOie0ukflbMa3p2QfGA9VSz6ZYxFIlQ6WG',
+      img: `${temaki}`,
       href: 'https://norecipes.com/temaki-sushi/',
     },
   ];

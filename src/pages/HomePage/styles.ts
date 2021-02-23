@@ -144,7 +144,7 @@ export const Container = styled.div`
       width: 100% !important;
       height: 100% !important;
       background: transparent;
-      opacity: 0.3;
+      opacity: 0.5;
     }
 
     @media (max-width: 700px) {
@@ -411,7 +411,7 @@ export const Container = styled.div`
       }
 
       img {
-        opacity: 0.3;
+        opacity: 0.5;
         display: flex;
         align-items: center;
 
