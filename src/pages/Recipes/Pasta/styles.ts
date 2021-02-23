@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* padding: 10px 0; */
   background: #171412;
   height: 100vh !important;
 
@@ -20,8 +19,6 @@ export const Container = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
-
-      /* height: 60px; */
       width: 100%;
       margin: 10px auto;
 
@@ -88,6 +85,7 @@ export const Container = styled.div`
     }
   }
 
+  /* ***************************************************************** */
   @media (max-width: 920px) {
     /* Grid Container */
     .MuiGridList-root {

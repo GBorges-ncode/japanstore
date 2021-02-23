@@ -1,4 +1,3 @@
-/* eslint-disable func-names */
 import React from 'react';
 
 import ReactFullpage from '@fullpage/react-fullpage';
@@ -15,13 +14,6 @@ const HomePage: React.FC = () => {
     <Container>
       <header>
         <h1>Japan Store</h1>
-
-        <nav>
-          {/* <button type="submit">Home</button>
-          <button type="submit">Store</button>
-          <button type="submit">About</button>
-          <button type="submit">Contact</button> */}
-        </nav>
       </header>
 
       <ReactFullpage
@@ -49,7 +41,6 @@ const HomePage: React.FC = () => {
                     >
                       <h2>レシピ</h2>
                     </button>
-                    {/* <h2 id="menuItem">レシピ</h2> */}
                     <h1 id="menuOptionName">Recipes</h1>
                   </div>
 
@@ -61,7 +52,6 @@ const HomePage: React.FC = () => {
                     >
                       <h2>大凡</h2>
                     </button>
-                    {/* <h2 id="menuItem">大凡</h2> */}
                     <h1 id="menuOptionName">About Us</h1>
                   </div>
 
@@ -73,14 +63,9 @@ const HomePage: React.FC = () => {
                     >
                       <h2>連絡</h2>
                     </button>
-                    {/* <h2 id="menuItem">連絡</h2> */}
                     <h1 id="menuOptionName">Contact</h1>
                   </div>
                 </div>
-
-                {/* <div id="imgHolder">
-                  <img src={pic1} alt="Pagoda" />
-                </div> */}
               </div>
               {/* END SECTION 1 */}
 

@@ -8,7 +8,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   html, div {
-    /* height: 100%; */
     -webkit-font-smoothing: antialiased;
     footer{
       position:absolute;

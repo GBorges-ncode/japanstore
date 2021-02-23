@@ -5,7 +5,6 @@ import { Theme, createStyles, makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
 
 import nigiri from '../../../assets/Recipes/Sushi/nigiri.png';
 import uramaki from '../../../assets/Recipes/Sushi/uramaki.png';
@@ -82,9 +81,7 @@ const Sushi: React.FC = () => {
       </header>
 
       <GridList cellHeight={180} className={classes.gridList} id="grid">
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div" />
-        </GridListTile>
+        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }} />
         {items.map(tile => (
           <GridListTile key={tile.img}>
             <a

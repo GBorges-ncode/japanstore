@@ -21,9 +21,7 @@ export const Container = styled.div`
   img {
     max-width: 140px;
     max-height: 140px;
-    /* object-fit: cover; */
     margin-left: 40px;
-    /* border: 1px solid #171412; */
   }
 
   /* Item Name */
@@ -63,9 +61,7 @@ export const Container = styled.div`
     img {
       max-width: 100px;
       max-height: 100px;
-      /* object-fit: cover; */
       margin-left: 10px;
-      /* border: 1px solid #171412; */
     }
 
     /* Item Name */

@@ -1,10 +1,5 @@
 import React from 'react';
 
-import {
-  MdAddCircleOutline,
-  MdDelete,
-  MdRemoveCircleOutline,
-} from 'react-icons/md';
 import { Button } from '@material-ui/core';
 import { Container } from './styles';
 

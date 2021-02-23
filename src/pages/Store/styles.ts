@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import IconButton from '@material-ui/core/IconButton';
-import { transform } from 'typescript';
 
 export const Container = styled.div`
   position: absolute;
@@ -96,6 +95,7 @@ export const Container = styled.div`
     }
   }
 
+  /* ***************************************************************** */
   /* 375px Screens - Container */
   @media (max-width: 424px) {
     header {
@@ -210,7 +210,7 @@ export const ProductsContainer = styled.div`
   width: 100%;
   height: auto;
 
-  /* Medias */
+  /* ***************************************************************** */
   @media (max-width: 1075px) {
     display: inline-flex;
     width: 90%;
@@ -291,6 +291,7 @@ export const FilterCol = styled.section`
     }
   }
 
+  /* ***************************************************************** */
   @media (max-width: 1075px) {
     display: none;
   }
@@ -312,6 +313,7 @@ export const ProductsHolder = styled.div`
 
   justify-content: center;
 
+  /* ***************************************************************** */
   @media (max-width: 1330px) {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -420,6 +422,7 @@ export const MenuFilterCol = styled.section`
     margin-left: 2px;
   }
 
+  /* ***************************************************************** */
   @media (max-width: 1075px) {
     display: inline-flex;
     margin: 10px auto;

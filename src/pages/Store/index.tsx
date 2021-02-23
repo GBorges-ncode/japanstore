@@ -64,18 +64,6 @@ const Store: React.FC = () => {
   // Load products
   useEffect(() => {
     async function loadProducts(): Promise<void> {
-      // await api
-      //   .get('priceproducts', {
-      //     params: {
-      //       minPrice,
-      //       maxPrice,
-      //       group: category,
-      //     },
-      //   })
-      //   .then(response => {
-      //     setProducts(response.data);
-      //   });
-
       const foundProducts = await api.get('priceproducts', {
         params: {
           minPrice,
@@ -186,7 +174,7 @@ const Store: React.FC = () => {
             onClose={() => setMenuOpen(false)}
             style={{ zIndex: 100 }}
           >
-            {/* Will render on small screens */}
+            {/* Will only render on small screens */}
             <MenuFilterCol>
               <div className="PricesFilterContainer">
                 <h6>Prices</h6>
@@ -306,7 +294,6 @@ const Store: React.FC = () => {
             </Badge>
           </StyledButton>
         </nav>
-        {/* </h1> */}
       </header>
 
       <ProductsContainer>
